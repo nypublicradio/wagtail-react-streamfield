@@ -109,9 +109,9 @@ class NewBlockWidget(BlockWidget):
     @property
     def media(self):
         return self.block_def.all_media() + Media(
-            js=['js/wagtail-react-streamfield.js'],
+            js=['./wagtail_react_streamfield/static/js/wagtail-react-streamfield.js'],
             css={'all': [
-                'css/wagtail-react-streamfield.css',
+                './wagtail_react_streamfield/static/css/wagtail-react-streamfield.css',
             ]})
 
     def value_from_datadict(self, data, files, name):
