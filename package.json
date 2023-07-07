@@ -8,7 +8,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^5.1.1",
-    "react-streamfield": "^0.9.5",
+    "react-streamfield": "^0.9.6",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
